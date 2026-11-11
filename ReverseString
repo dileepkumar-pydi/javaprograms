@@ -1,0 +1,11 @@
+class Main {
+    public static void main(String[] args) {
+       String data = "Hyderabad";
+       System.out.println(reverseString(data));
+    }
+
+    public static String reverseString(String data){
+        StringBuilder sb = new StringBuilder(data);
+        return sb.reverse().toString();
+    }
+}
